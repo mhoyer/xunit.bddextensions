@@ -1,0 +1,21 @@
+<TemplatesExport family="File Templates">
+  <Template uid="6df091b9-d614-4e51-a113-6f15f14f2d99" text="// &lt;copyright file=&quot;$FILENAME$.cs&quot; company=&quot;Pixelplastic&quot;&gt;&#xD;&#xA;// Copyright (C) Marcel Hoyer 2009. All rights reserved.&#xD;&#xA;// &lt;/copyright&gt;&#xD;&#xA;// &lt;author&gt;Marcel Hoyer&lt;/author&gt;&#xD;&#xA;// &lt;email&gt;mhoyer AT pixelplastic DOT de&lt;/email&gt;&#xD;&#xA;&#xD;&#xA;using Xunit.Extensions.AssertExtensions;&#xD;&#xA;&#xD;&#xA;namespace $NAMESPACE$&#xD;&#xA;{&#xD;&#xA;	public class When_$WHEN$ : $BASECLASS$&#xD;&#xA;	{&#xD;&#xA;		Given context = () =&gt; $CONTEXT$;&#xD;&#xA;&#xD;&#xA;		Because of = () =&gt; $BECAUSE$;&#xD;&#xA;&#xD;&#xA;		It should_$END$ = () =&gt; ;&#xD;&#xA;	}&#xD;&#xA;}" shortcut="" description="TestFixture template for xUnit.BDDExtensions" reformat="true" shortenQualifiedReferences="true">
+    <Context>
+      <ProjectLanguageContext language="CSharp" />
+    </Context>
+    <Categories />
+    <Variables>
+      <Variable name="FILENAME" expression="getFileNameWithoutExtension()" initialRange="-1" />
+      <Variable name="NAMESPACE" expression="fileDefaultNamespace()" initialRange="-1" />
+      <Variable name="BASECLASS" expression="constant(&quot;BDDTest&quot;)" initialRange="0" />
+      <Variable name="WHEN" expression="" initialRange="0" />
+      <Variable name="CONTEXT" expression="" initialRange="0" />
+      <Variable name="BECAUSE" expression="" initialRange="0" />
+    </Variables>
+    <CustomProperties>
+      <Property key="FileName" value="Class" />
+      <Property key="Extension" value="cs" />
+      <Property key="ValidateFileName" value="False" />
+    </CustomProperties>
+  </Template>
+</TemplatesExport>

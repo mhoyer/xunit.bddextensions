@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xunit.BDDExtension.Sample", "Xunit.BDDExtension.Sample\Xunit.BDDExtension.Sample.csproj", "{DBE48A26-00BC-404D-8C5C-B3B7C73AA530}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xunit.BDDExtension", "Xunit.BDDExtension\xunit.BDDExtension.csproj", "{1A9A19DF-CE1E-4A36-9D45-4F76BF01C9D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBE48A26-00BC-404D-8C5C-B3B7C73AA530}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBE48A26-00BC-404D-8C5C-B3B7C73AA530}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBE48A26-00BC-404D-8C5C-B3B7C73AA530}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBE48A26-00BC-404D-8C5C-B3B7C73AA530}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A9A19DF-CE1E-4A36-9D45-4F76BF01C9D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A9A19DF-CE1E-4A36-9D45-4F76BF01C9D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A9A19DF-CE1E-4A36-9D45-4F76BF01C9D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A9A19DF-CE1E-4A36-9D45-4F76BF01C9D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

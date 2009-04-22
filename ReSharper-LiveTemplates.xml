@@ -1,0 +1,15 @@
+<TemplatesExport family="Live Templates">
+  <Template uid="1f1ecbc8-429e-4788-8583-5935920ce5a8" text="	public class When_$WHEN$ : $BASECLASS$&#xD;&#xA;	{&#xD;&#xA;		Given context = () =&gt; $CONTEXT$;&#xD;&#xA;&#xD;&#xA;		Because of = () =&gt; $BECAUSE$;&#xD;&#xA;&#xD;&#xA;		It should_$END$ = () =&gt; ;&#xD;&#xA;	}" shortcut="when" description="Creates a new When_ class for xUnit.BDDExtension" reformat="true" shortenQualifiedReferences="true">
+    <Context>
+      <CSharpContext context="Everywhere" minimumLanguageVersion="2.0" />
+    </Context>
+    <Categories />
+    <Variables>
+      <Variable name="BASECLASS" expression="constant(&quot;BDDTest&quot;)" initialRange="0" />
+      <Variable name="WHEN" expression="" initialRange="0" />
+      <Variable name="CONTEXT" expression="" initialRange="0" />
+      <Variable name="BECAUSE" expression="" initialRange="0" />
+    </Variables>
+    <CustomProperties />
+  </Template>
+</TemplatesExport>
